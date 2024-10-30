@@ -13,8 +13,6 @@ Red link color: #B82B26
 Charts (black background): Font is .8em
  */
 
-
-/* new code you will use */
 .container {
     width: 45%
 }
@@ -29,19 +27,34 @@ header img,
 header {
     background-color: #11151C;
     color: #FEFEFE;
-    text-align: center;
+}
+
+div {
+    padding: 15px 15px 15px 15px
 }
 
 body {
     font-family: "Figtree";
     font-size: 14px;
+    text-align: center;
 }
 
 h1 {
     font-family: "Prompt";
-    
+    font-weight: 200;
+}
+
+
+h2,
+p {
+    font-size: .8em;
 }
 
 h3 {
     font-family: "Prompt";
+}
+
+.logo {
+    font-weight: 550;
+    letter-spacing: .1rem;
 }
