@@ -14,7 +14,7 @@ Charts (black background): Font is .8em
  */
 
 .container {
-    width: 45%
+    width: 45%;
 }
 
 header img,
@@ -27,6 +27,7 @@ header img,
 header {
     background-color: #11151C;
     color: #FEFEFE;
+    text-align: center
 }
 
 div {
@@ -35,15 +36,14 @@ div {
 
 body {
     font-family: "Figtree";
+    text-align: start;
     font-size: 14px;
-    text-align: center;
 }
 
 h1 {
     font-family: "Prompt";
     font-weight: 200;
 }
-
 
 h2,
 p {
@@ -52,6 +52,7 @@ p {
 
 h3 {
     font-family: "Prompt";
+    font-size: 14px;
 }
 
 .logo {
