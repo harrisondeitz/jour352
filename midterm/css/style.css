@@ -13,9 +13,6 @@ Red link color: #B82B26
 Charts (black background): Font is .8em
  */
 
-.container {
-    width: 45%;
-}
 
 header img,
 .chart img {
@@ -60,3 +57,13 @@ h3 {
     font-weight: 550;
     letter-spacing: .1rem;
 }
+
+.container {
+    width: 45%;
+}
+
+.container-fluid {
+    background-color: #11151C;
+    color: #FEFEFE;
+}
+
