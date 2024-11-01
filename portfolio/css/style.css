@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+header {
+    background-color: #000000;
+    font-family: "Kanit";
+    font-size: 15px;
+    height: 5em;
+}
+
+h1 {
+    background-color: #ffffff;
+    font-family: "Rubik Mono One";
+    font-size: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #525559;
+}
+
+h2 {
+    margin-top: 50px;
+    font-family: "Kanit";
+    font-size: 39px;
+    padding-left: 30px;
+}
+
+h3 {
+    font-family: "Kanit";
+    font-size: 65px;
+    padding-top: 60px;
+}
+
+h4 {
+    background-color: #ffffff;
+    font-family: "Rubik Mono One";
+    font-size: 170px;
+    margin-left: 10px;
+    color: #525559;
+}
+
+h5 {
+    font-family: "Rubik Mono One";
+    font-size: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: underline;
+    color: #525559;
+}
+
+main h5 {
+    font-family: "Rubik Mono One";
+    font-size: 35px;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 20px;
+    text-decoration: underline;
+    color: #525559;
+}
+
+i {
+    font-family: "Kanit";
+    font-size: 20px;
+}
+
+h6 {
+    font-family: "Kanit";
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+p {
+    font-family: "Kanit";
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+main a {
+    font-family: "Kanit";
+    font-size: 27px;
+    color: #716A6A;
+}
+
+
+b {
+    font-family: "Kanit";
+    font-size: 20px;
+}
+
+pre {
+    font-family: "Kanit";
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.nav-link {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.contact-link {
+    color: #716A6A;
+}
+
+ul {
+    font-family: "Kanit";
+    font-size: 20px;
+}
+
+img {
+    margin-top: 50px;
+    padding-left: 30px;
+    display: block;
+}
+
+.col-lg-4 img {
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:1000px) {
+    h1 {
+        font-size: 55px;
+    }
+
+    img {
+        width: 350px;
+        padding-bottom: 20px;
+    }
+
+    h4 {
+        font-size: 60px
+    }
+
+    h3 a {
+        font-size: 40px
+    }
+
+    .col-lg-4,
+    .col-lg-4 a {
+        width: 280px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:819px) {
+
+    h3,
+    h3 a {
+        font-size: 24px;
+    }
+
+    .nav-link {
+        font-size: 20px;
+    }
+
+    h2 {
+        margin-top: 0px;
+        font-size: 30px;
+    }
+
+    .col-lg-4,
+    .col-lg-4 a {
+        width: 150px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:479px) {
+
+    .col-lg-4,
+    .col-lg-4 a {
+        width: 120px;
+        font-size: 10px;
+    }
+}
