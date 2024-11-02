@@ -15,9 +15,9 @@ header,
     color: #FEFEFE;
 }
 
-.top,
 section img,
-iframe {
+div,
+.container {
     padding: 15px 0px 15px 0px
 }
 
@@ -50,11 +50,6 @@ h3 {
 
 .container {
     width: 30.75%;
-    padding: 15px 0px 15px 0px;
-}
-
-div {
-    padding: 15px 0px 15px 0px;
 }
 
 a {
