@@ -28,7 +28,8 @@ header {
 }
 
 .top,
-iframe {
+iframe,
+section img {
     padding: 15px 0px 15px 0px
 }
 
@@ -71,4 +72,11 @@ h3 {
 
 a {
     color: darkred
+}
+
+@media (max-width:776px) {
+
+    .container {
+        width: 97%;
+    }
 }
