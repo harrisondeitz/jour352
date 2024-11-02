@@ -16,14 +16,15 @@ header,
 }
 
 .top,
-iframe,
-section img {
+section img,
+iframe {
     padding: 15px 0px 15px 0px
 }
 
 body {
     font-family: "Figtree";
     font-size: 14px;
+    padding-bottom: 30px;
 }
 
 h1 {
@@ -49,6 +50,10 @@ h3 {
 
 .container {
     width: 30.75%;
+    padding: 15px 0px 15px 0px;
+}
+
+div {
     padding: 15px 0px 15px 0px;
 }
 
